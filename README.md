@@ -6,6 +6,9 @@ pragma solidity ^0.8.0;
 
 contract calsi{
 
+   
+contract calci{
+
     function add(uint a,uint b) public  pure returns  (uint){
         return a + b;
     }
@@ -13,7 +16,12 @@ contract calsi{
     function multi(uint a, uint b) public  pure returns (uint){
         return a * b;
     }
+    function div(uint a,uint b) public  pure returns (uint){
+        return a / b;
+    }
+    function minus(uint a, uint b) public  pure returns (uint){
+        return a - b;
+    }
 }
-
 
 
